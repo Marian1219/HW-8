@@ -1,0 +1,64 @@
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+
+#greycol {
+  color: grey;
+}
+
+.text-box div > p {
+  color: red;
+}
+
+
+.text-box p:last-of-type:not(.yellow) {
+  color: green;
+}
+
+.text-box .yellow {
+  color: yellow;
+}
+
+
+
+
+/* Завдання 2 */
+ul:hover {
+  color: slateblue;
+}
+
+ul li {
+  color: rgb(152, 73, 73);
+}
+
+#mon li {
+  color: pink;
+}
+
+#thu li {
+  color: green;
+}
+
+#wed li {
+  color: orange;
+}
+
+
+#fri li {
+  color: brown;
+}
+
+.schedule h3 {
+  font-size: 20px;
+  color: darkblue;
+}
+
+li:nth-child(2) {
+  background-color: #e0ffe0;
+}
+
+
+li:not(:last-child):hover {
+  color: blue;
+}
